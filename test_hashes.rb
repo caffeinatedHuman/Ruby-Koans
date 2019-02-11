@@ -16,3 +16,10 @@ hash2["two"] << "dos"
 puts hash2["two"]
 
 puts hash2["one"]
+
+=begin
+hash3 = Hash.new()
+hash3[:one] << "yolo"
+
+puts hash3
+=end
