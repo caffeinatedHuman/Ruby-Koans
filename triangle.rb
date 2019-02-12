@@ -22,7 +22,7 @@ def triangle(a, b, c)
   length_array = [a,b,c]
   length_array.sort!
   
-  puts length_array
+  # puts length_array
   if length_array[0]+length_array[1]<=length_array[2]
     raise TriangleError
   end
